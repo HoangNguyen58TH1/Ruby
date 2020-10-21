@@ -32,4 +32,33 @@ ifelse, unless, case...when...else...end
 - Ruby alias Statement
 - Ruby undef Statement
 
-- Block ...
+#21/10/2020
+# Block
+- method before, block after.
+- methodName = blockName
+- call block by "yield" in method
+- BEGIN block, END block
+
+# Modules
+- Module đặt tên giống Class
+- method in Module cũng giống method in Class
+- VD: ModuleName.methodName
+      ModuleName::CONSTANT
+
+- Class.methodName
+- Module.methodName
+
+- $LOAD_PATH << '.' === require_relative
+- "require" fileName
+- "include" Module in Class
+- Mixins === đa kế thừa
+- When 1 Class include 2 Module thì có thể gọi Class đó đa kế thừa or là 1 "mixin".
+
+# Strings
+- String unpack Directives
+
+# Arrays
+- 
+
+#Hash
+
