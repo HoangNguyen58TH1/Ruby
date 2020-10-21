@@ -1,0 +1,120 @@
+1. Variable
+- $ : global variable
+  --> đc call và edit bất kì đâu trong chương trình.
+
+- @ : instance variable
+  --> giống vs biến class, chỉ khác chổ scope của avaiable của nó chỉ có value trong instance object của class.
+  --> các instance variable nên đc defined trong các function instance( k kèm theo keyword "sefl" lúc khai báo hàm)
+
+
+- [a-z] : local variable
+  + Biến local thường bắt đầu bằng chữ cái a-z hoặc dấu _ 
+  --> defined && only using ở function, method or loop
+  --> variable khi kết thúc loop thì sẽ mất availabel
+
+
+- [A-Z] : constant variable
++ Là biến bắt đầu bằng 1 chữ cái hoa
+  --> maybe change value của constant ở ngoài class mà nó được defined. Và không thể change value ngay trong class nó được định nghĩa.
+
+
+- @@ : class variable
+  --> work in class và instance of class đó.
+  --> 1 biến ơ class Parent changed --> Class chil also changed.
+
+
+p = object.inspect
+
+- local_variables: variable default of Ruby.
+
+- Scope là vùng hoạt động của model, class, method khi ta khai báo nó
+- Scope available đối với 1 biến nào đó nó còn phụ thuộc vào kiểu biến đó được định nghĩa (global, class, instance, local, constant)
+
+- $global(or Constant) --> @@class --> @instance --> local
+- Khi call method from Class --> .new
+- 
+
+======> Các loại biến trong Ruby, phân biệt nó, scope của từng loại.
+
+
+2. 
+- Symbol same String. Have method: length, upcase, downcase, ...
+  --> But String changed. Sym then "NO"
+- method object_id
+- :symbol faster String
+- convert symbol into String && reverse
+- Symbol # String
++ Symbol làm Key of Hash tốt hơn.
++ String có nhiều method sp hơn
++ Một số method using symbol làm parameters, một số khác using String, một số thì có thể using cả 2.
+
+- implement: triển khai, thực hiện.
+- == : so sánh value + data type
+- === : so sánh value + data type + memory
+
+- arr = [1,2,3,4,5]
++ puts arr.length
++ puts arr[5]
++ puts arr[0,2] --> from 0, get 2 element
++ puts arr[0..3] --> from 0 to 3
++ arr.inclue?(element)
++ arr.first
++ arr.last
+
+- Range in Ruby (phạm vi) --> nó gần giống như 1 array vậy. Nhưng có theo trình tự.
+- to_a --> convert into array
+- to_s --> convert into String
+- to_h --> convert Array into key:value
+- to_enum --> Enumerator...
+
+- Hash là 1 data type như object bên JS.
+
+- def: defined 1 method trong Ruby (như khai báo 1 function trong JS)
+
+
+1. if else, switch case
+2. loop: for, while, each, ...
+3. thao tác vs array, hash array(object).
++ push = << --> add element in array
++ Data Structure: array, hash array(obj)
+- object oriented: HDT
+- 
+- OOP
+- Classes & Objects ...
++ Class: khuỗn mẫu
++ Object: biểu hiện của khuôn mẫu đó.
+  --> data + behavior
+  --> OOP: attribute + method
+- initialize (khởi tạo) = constructor in JS
+
+- attr_reader = getter --> get value
+- attr_writer = setter --> set value
+- attr_accessor = getter + setter --> get +  set value
+- “make_noise” method --> Not used yet
+
+- Encapsulation(đóng gói): là cách giới hạn việc truy cập trực tiếp vào object data đồng thời tạo điều kiện cho hđ cho data.
+  --> những data bên trong sẽ bị dấu đi. --> attr_reader
+- Inheritance: behaviors và characteristics --> class ClassChild < ClassParent
+- Module = ToolBox (trong module sẽ làm 1 cái gì đó :>)
+  VD: module Math
++ module phải viết trước class trong cùng 1 file
++ include NameModule vào thẳng Class
++ instance of class = object
++ Miss:
+    module maybe haven't instance
+    module maybe haven't subclass
+    module defined by module
+
+#Tomorrow
+5. attr_accessor, attr_reader, attr_writer 
+6. getter, setter
+7. OOP, private, protected, public, ...
+- 3 từ khoá này chỉ áp dụng cho phương thức:
+  + Phương thức public: Giống trong Java, có thể được gọi thoải mái từ bất kì đâu (toàn phương)
+  + Phương thức protected: Giống trong Java, có thể được gọi bởi đối tượng của lớp con (chiều dọc) hoặc đối tượng cùng loại (chiều ngang). Tham khảo Protected Methods and Ruby 2.0.
+  + Phương thức private: Khác trong Java ở 2 điểm (1) không thể dùng với nơi nhận tường minh (2) có thể được gọi một cách không tường minh bởi đối tượng của lớp con (chiều dọc).
+8. method, module, class, object
+
+Done.
+4. các toán tử: || = > < &&
+

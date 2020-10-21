@@ -1,0 +1,35 @@
+- ; or enter --> END. But + - \ is continue.
+- variableName: chữ cái, chữ số, _
+- Danh từ riêng k đc using làm variableName & constantName. Được using để  làm methodName.
+
+- Ruby Pseudo-Variable = local + CONSTANT(k gán đc value cho loại variable này)
++ self:  The receiver object of the current method.
++ true
++ false
++ nil: undefined
++ __FILE__: name of current source file.
++ __LINE__: current line of source file.
+
+- Backslash: dấu gạch chéo ngược
+
+-
+  == : compare value + class
+  eql? : compare value + class
+  equal? : compare object_id
+
+ifelse, unless, case...when...else...end
+
+- while, until, for, each, break, next(continue), redo(lặp lại vòng lặp đó liên tục), retry(thử lại từ đầu cái loop đó hoài luôn).
+
+- methodName : start chữ cái thường
+- method in Ruby return 1 value default, value of statement final.
+- return in method return 1 or more value.
+- method defined outside Class --> method private
+- method defined inside Class --> method default is public
+
+- maybe access method of Class mà k thông qua object của Class đó.
+
+- Ruby alias Statement
+- Ruby undef Statement
+
+- Block ...
