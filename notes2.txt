@@ -62,3 +62,61 @@ ifelse, unless, case...when...else...end
 
 #Hash
 
+# Range
+- String
+- Condition
+- Intervals
+
+# Iterators
+- each --> lặp qua từng element
+- collect --> return all element (array || hash)
+
+# File I/O
+- Class I/O --> read, write, gets, puts, readline, get & printf.
++ puts : in ra, \n
++ gets : get value enter
++ putc : in ra 1 ky tu
++ print: in ra khong \n
+
+- File.open # File.new
++ File.open associated a block. File.new then NO.
+
+- To quote:
++ r : read only. Pointer begin
++ r+ : read-write. Pointer begin
+    --> Overwrites content of current pointer.
++ w : write only. 
+    File tồn tại --> Overwrites
+    File chưa tồn tại --> Create file
++ w+ : read-write
+    File tồn tại --> Overwrites
+    File chưa tồn tại --> Create file
++ a : write only. 
+    File tồn tại --> append
+    File chưa tồn tại --> Create file
++ a+ : read-write
+    File tồn tại --> append
+    File chưa tồn tại --> Create file
+- Notes: when write file then Pointer end file. --> Can't read file.
+
+- Class File is subclass of class IO.
+- Rename, Delete file.
+
+- Class File --> files
+- Class Dir --> directory
++ Directories in Ruby
++ Creating a Directory
++ Delete dir: .delete, .rmdir, .unlink 
++ Creating Temporary(tmp: tạm thời) Files & Temporary Directories
+
+# Exceptions: ngoại lệ
+- rescue: giải cứu = handling = catching
+- raise
+
+# OOP
+- freeze: đông cứng
+- Class Information: maybe known name, class of "self".
+
+# Regular Expressions
+- sub, gsub 
+- Read document VNM.
