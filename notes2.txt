@@ -117,6 +117,42 @@ ifelse, unless, case...when...else...end
 - freeze: đông cứng
 - Class Information: maybe known name, class of "self".
 
-# Regular Expressions
-- sub, gsub 
+# Regular Expressions: biểu thức chính quy
+- sub, gsub  --> search and replace regex.
 - Read document VNM.
+- Matching: 
+    .match
+    "text example" =~ /^Ruby$/
+    ===
+    case when
+    scan
+
+# 23/10/2020
+# Database Access (DBI)
+- DBI: DB Independent Interface
+- DBI provides "abstraction layer" between code Ruby with db. --> inplement db ez
+- DBD
+
+- module Ruby MySQL
+- 
+
+- Update Operation ...
++ prepare
++ execute
++ finish
++ commit if OKE
++ callback if not OKE
+
+- Performing Transactions
++ Atomicity
++ Consistency
++ Isolation
++ Durability
+    --> commit | callback | transaction
+
+- Handling Errors
++ err: số  err
++ errstr: str mô tả err
++ state: mã lỗi chuẩn
+
+- Code Blocks with Methods ...
