@@ -1,0 +1,30 @@
+Viết 1 app ruby OOP
+In xuất thông tin sinh viên
+Yêu cầu
+SinhVien: ten, tuoi, diachi, ngaysinh
+Sau đó làm 1 file excel, đọc file excel đó rồi puts thông tin ra
+
+- nameClass là số ít
+-   Tên biến, tên hàm, symbol: a_var_name, get_prime, a_symbol.
+    Tên class, module: SomeClass, SomeModule
+    Hằng số: SOME_CONST
+
+Convention:
+https://kipalog.com/posts/Mot-so-Code-conventions-khi-su-dung-Ruby-on-Rails
+
+1. Khoan hãy code, liệt kê từng attribue thì datatype là gì
+Đúng r làm tiếp, các att có validate gì không
+2. Viết class Student, dùng all English
+3. Viết function validate age
+4. Viết function in ra info SV
+“Name: {name} - Age: {age} - Address: {address} - Date of birth: {date_of_birth}”
+Sẽ in ra pattern ntn
+5. Viết 1 class method in ra array SV. Tạo class method dùng lại thằng instance method.
+
+6. Đặt tên file giống tên Class or module. 1 file đại diện cho 1 class or module
+7. Viết  Module Student_Helper
+8. code chính ở file main.rb (include những files còn lại vào main.rb)
+9. Ruby có nhiều cái hay (built in function) để  thay thế if...else.
+10. Built in Function của Ruby khá rộng nhưng k có document nào focus được hết
+--> Phải tùy biến từng scope để seach.
+"count array with condition ruby" --> search chính xác như này thì mới focus đc scope mình cần.
