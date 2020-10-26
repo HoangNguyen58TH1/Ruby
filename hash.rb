@@ -28,7 +28,8 @@
 # 
 hash = {b: "bbb", a: "aaa"}
 puts hash
-puts hash.to_a.inspect
-puts hash["a"] = "Hoang toni"
-puts hash.to_hash
-puts hash
+puts "#{hash[:a]}"
+# puts hash.to_a.inspect
+# puts hash["a"] = "Hoang toni"
+# puts hash.to_hash
+# puts hash

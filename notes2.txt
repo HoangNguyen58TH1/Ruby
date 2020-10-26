@@ -156,3 +156,35 @@ ifelse, unless, case...when...else...end
 + state: mã lỗi chuẩn
 
 - Code Blocks with Methods ...
+
+# 25/10/2020
+# Web Services
+- SOAP: Simple Object Access Protocol 
++ Là giao thức đa nên tảng
++ Độc lập vs ngôn ngữ
++ Dựa trên XML
++ Thường là HTTP
+
++ Dùng XML để mã hóa info && HTTP để vận chuyển
+
+- Web Services là tập hợp giao thức, tiêu chuẩn ==> để trao đổi data giữa các app và hệ thống.
++ Là phương thức giao tiếp giữa hai thiết bị qua mạng.
++ Là ứng dụng hoặc thành phần ứng dụng để giao tiếp.
++ Là tập hợp các tiêu chuẩn hoặc giao thức để trao đổi thông tin giữa hai thiết bị hoặc ứng dụng.
+- Web service hoạt động một cách độc lập không phụ thuộc bất kỳ ngôn ngữ nào
+
+- Nền tảng web service cơ bản là XML HTTP:
++ SOAP (là viết tắt của Simple Object Access Protocol) – giao thức truy cập đối tượng đơn giản: SOAP là một giao thức dựa trên XML đơn giản cho phép các ứng dụng trao đổi thông tin qua HTTP.
++ UDDI (Universal Description, Discovery and Integration): UDDI là một tiêu chuẩn dựa trên XML để mô tả, xuất bản và tìm kiếm các dịch vụ web.
++ WSDL (Web Services Description Language) – ngôn ngữ định nghĩa web service: WSDL là một ngôn ngữ dựa trên XML để mô tả các dịch vụ web và cách truy cập chúng.
+
+- Web Services lợi ích:
++ Các app(đc viết = ngôn ngữ # nhau) giao tiếp được vs nhau
++ Cung cấp quyền truy cập vào các tính năng thông qua internet
++ cho phép khả năng tương tác giữa các ứng dụng.
++ sử dụng giao thức công nghiệp được tiêu chuẩn hóa để liên lạc
++ giảm chi phí liên lạc, an toàn và nhanh chóng.
+
+- 
+
+
