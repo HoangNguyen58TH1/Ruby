@@ -28,3 +28,24 @@ Sẽ in ra pattern ntn
 10. Built in Function của Ruby khá rộng nhưng k có document nào focus được hết
 --> Phải tùy biến từng scope để seach.
 "count array with condition ruby" --> search chính xác như này thì mới focus đc scope mình cần.
+
+# 27/10/2020
+1. Create Class Student Manager
+2. Create def init have param = array
+3. Create def search Student (no using if)
+
+4. Mỗi class sẽ có 1 scope riêng của nó
+- VD:
++ Student để save info student
++ StudentManager thì để thực hiện quản lý student
++ "Bản chất em có thể viết hàm thêm trong Student và nó vẫn sẽ chaạy. Nhưng nó sẽ không đúng với mindset của OOP, anh muốn em tập viết code cho clean nữa"
++ Open mind
+
+5. Những instance của Hash sẽ chiếm 1 memory location when programing run.
+6. Những instance này có thể  truy vấn đến các biến instance trong Class.
+    VD: hash.name thay vì hash['name']
+
+7. Add 1 element in array. push() or <<
+
+- Read again OOP
+- Xem lại code hnay
