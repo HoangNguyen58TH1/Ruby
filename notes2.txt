@@ -187,4 +187,7 @@ ifelse, unless, case...when...else...end
 
 - 
 
-
+# Built in Function
+- Tức là những function có sẵn (nằm trong Core của code Ruby rồi).
+- Math:
++ floor, ceil, round
