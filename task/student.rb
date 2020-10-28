@@ -12,19 +12,6 @@ class Student
     @date_of_birth = hash_student[:date_of_birth]
   end
 
-  def self.print_info(students)
-    students.each { |item|
-      student = Student.new(item)
-      student.validate_age
-      student.print_student
-    }
-  end
-
-  def self.statistic(students)
-    num = students.count { |items| items[:age] > 20}
-    puts "There are #{num} students are over than 20 years old."
-  end
-
   def print_student
     puts "Name: #{name} - Age: #{age} - Address: #{address} - Date of birth: #{date_of_birth}"
   end

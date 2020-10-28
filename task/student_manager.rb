@@ -14,4 +14,16 @@ class StudentManager
       item.print_student
     end
   end
+
+  def print_info
+    students.each { |item|
+      item.validate_age
+      item.print_student
+    }
+  end
+
+  def statistic
+    num = students.count { |items| items.age > 20}
+    puts "There are #{num} students are over than 20 years old."
+  end
 end
