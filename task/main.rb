@@ -28,3 +28,4 @@ end
 
 student_manager = StudentManager.new(students)
 student_manager.classify
+student_manager.print_info

@@ -96,3 +96,14 @@ Sẽ in ra pattern ntn
 2. Create Class AdvancedStudent
 3. add mode: "..." in hash
 4. create def in StudentManager for phân loại SV.
+
+# 29/10/2020
+- DRY: Don't Repeat Yourself
+
+- Trong inherit thì super() cực kì quan trọng để kế thùa or override lại method.
+- Khi k có param ở def 
+    --> thì super hay super() đều như nhau
+- Khi có param ở def
+    --> super --> thì truyền all param lên method đó ở lớp cha
+    --> super() --> chỉ truyền lên lớp cha những param có trong ()
+        
