@@ -27,5 +27,5 @@ end
 # student_manager.statistic
 
 student_manager = StudentManager.new(students)
+student_manager.print_info()
 student_manager.classify
-student_manager.print_info

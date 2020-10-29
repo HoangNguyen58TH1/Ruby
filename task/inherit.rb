@@ -15,8 +15,8 @@ class B < A
   # end
 
   def dosomething param1, param2
-    super(param1)
     puts "something B #{param2}"
+    super(param1)
   end
 end
 

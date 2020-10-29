@@ -106,4 +106,11 @@ Sẽ in ra pattern ntn
 - Khi có param ở def
     --> super --> thì truyền all param lên method đó ở lớp cha
     --> super() --> chỉ truyền lên lớp cha những param có trong ()
+
+- Viết code phải đúng theo chuẩn của OOP, đúng theo scope của nó. Vì sao ?
+    --> Vì nếu viết code k đúng theo scope thì cho dù nó vẫn chạy, chạy đúng, k ảnh hưởng đến code xung quanh. Nhưng mà code như v thì nó sẽ càng ngày càng phình to ra --> khó quản lý.
+    --> Viết code để run thì rất dể, nhưng viết code để dể quản lý thì rất khó.
+
+- Ruby là ngôn ngữ like human read
+- 
         

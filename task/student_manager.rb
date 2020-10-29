@@ -1,4 +1,9 @@
+$LOAD_PATH << '.'
+require 'student_print_helper'
+
 class StudentManager
+  include StudentPrintHelper
+
   attr_accessor :students
   def initialize(students)
     @students = students
@@ -16,10 +21,7 @@ class StudentManager
   end
 
   def print_info
-    students.each { |item|
-      item.validate_age
-      item.print_student
-    }
+    print_info_helper(students)
   end
 
   def statistic
@@ -28,15 +30,22 @@ class StudentManager
   end
 
   def classify
-    basic = 0
-    advanced = 0
+    basic, advanced = 0, 0
+    arr_basic, arr_advanced = [], []
     students.each do |hash|
-      basic += 1 if hash.class == StudentBasic
-      advanced += 1 if hash.class == StudentAdvanced
+      if hash.class == StudentBasic
+        basic += 1
+        arr_basic << hash
+      else
+        advanced += 1
+        arr_advanced << hash
+      end
     end
 
-    puts "Have #{basic} Student"
-    puts "Have #{advanced} Student"
+    puts "Have #{basic} Student Basic"
+    print_info_helper(arr_basic)
+    puts '-------------------------'
+    puts "Have #{advanced} Student Advanced"
+    print_info_helper(arr_advanced)
   end
-
 end
