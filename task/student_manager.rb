@@ -26,4 +26,17 @@ class StudentManager
     num = students.count { |items| items.age > 20}
     puts "There are #{num} students are over than 20 years old."
   end
+
+  def classify
+    basic = 0
+    advanced = 0
+    students.each do |hash|
+      basic += 1 if hash.class == StudentBasic
+      advanced += 1 if hash.class == StudentAdvanced
+    end
+
+    puts "Have #{basic} Student"
+    puts "Have #{advanced} Student"
+  end
+
 end
