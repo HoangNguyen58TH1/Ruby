@@ -112,5 +112,10 @@ Sẽ in ra pattern ntn
     --> Viết code để run thì rất dể, nhưng viết code để dể quản lý thì rất khó.
 
 - Ruby là ngôn ngữ like human read
-- 
         
+# 30/10/2020
+# Ruby Style Code
+- Not using @@class_variable --> because các @@class_variable của các Class kế thừa nhau sẽ override nhau. Ưu tiên Class Instance.
+- code suggestion
+- Install: zsh on Terminal, tabnine on Extension.
+- Start code Ruby with Git. Checkout branch new when code issue.
